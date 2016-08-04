@@ -15,8 +15,8 @@
     [super viewDidLoad];
     
     //配置属性
-    self.shotViewAnimationType = ShotViewAnimationTypeSlider;
-    
+    self.shotViewAnimationType = ShotViewAnimationTypeScale;
+    self.scaleViewFloat = 0.9;
     
 }
 
@@ -35,7 +35,7 @@
 }
 
 - (void)popToPre{
-    //统一处理返回
+    
     [self yn_popViewController]; 
     
 }
