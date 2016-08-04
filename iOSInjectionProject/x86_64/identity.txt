@@ -1,0 +1,2 @@
+/Users/zyn/Library/Developer/Xcode/DerivedData/YNNavigationController-esdqudzxsgicatfedgwgqzgmmyyr/Build/Products/Debug-iphonesimulator/YNNavigationController.app
+
