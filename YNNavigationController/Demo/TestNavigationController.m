@@ -35,8 +35,8 @@
 }
 
 - (void)popToPre{
-    
-    [self yn_popViewController];
+    //统一处理返回
+    [self yn_popViewController]; 
     
 }
 
