@@ -2,7 +2,7 @@
 
 ####先上效果图
 
-![](https://github.com/yongyuandouneng/YNNavigationController/blob/master/GifAndImage/YNNavigationControllerSlider.gif)
+![](https://github.com/yongyuandouneng/YNNavigationController/blob/master/GifAndImage/YNNavigationControllerSliderGif.gif)
 ![](https://github.com/yongyuandouneng/YNNavigationController/blob/master/GifAndImage/YNNavigationControllerScaleGif.gif)
 
 喜欢就start鼓励一下，您在使用过程中有任何问题、出现任何(BUG、Crash)，请加QQ群538133294或联系我的扣扣1003580893.
