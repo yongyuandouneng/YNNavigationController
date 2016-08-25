@@ -384,9 +384,7 @@
     [YN_SHOTVIEW.arrayScreenShots removeLastObject];
     UIImage *image = [YN_SHOTVIEW.arrayScreenShots lastObject];
     
-    if (image) {
-        YN_SHOTVIEW.imgView.image = image;
-    }
+    YN_SHOTVIEW.imgView.image = image;
     
     return [super popViewControllerAnimated:animated];
 
@@ -413,8 +411,7 @@
         }
     }
     UIImage *image = [YN_SHOTVIEW.arrayScreenShots lastObject];
-    if (image)
-        YN_SHOTVIEW.imgView.image = image;
+    YN_SHOTVIEW.imgView.image = image;
     
     return arr;
     
