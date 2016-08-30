@@ -8,7 +8,8 @@
 
 #import "ProductListViewController.h"
 #import "ProductDetailViewController.h"
-#import "YNNavigationController.h"
+#import "DiscoverViewController.h"
+#import "TestNavigationController.h"
 
 @implementation ProductListViewController
 - (void)viewDidLoad{
@@ -29,6 +30,15 @@
 - (void)tapOnClick{
 
     [self.navigationController pushViewController:[[ProductDetailViewController alloc]init] animated:YES];
+    
+    
+//    DiscoverViewController * v = [[DiscoverViewController alloc]init];
+//    
+//    TestNavigationController *NA = [[TestNavigationController alloc]initWithRootViewController:v];
+//    
+//    [self presentViewController:NA animated:YES completion:nil];
+    
+    
     
 }
 

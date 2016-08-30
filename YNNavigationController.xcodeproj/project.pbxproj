@@ -10,6 +10,7 @@
 		2E28B02E1D52F20300C63612 /* NSObject+YNAssociateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E28B02D1D52F20300C63612 /* NSObject+YNAssociateObject.m */; };
 		2E28B0311D5314B600C63612 /* YNScreenShotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E28B0301D5314B600C63612 /* YNScreenShotView.m */; };
 		2E28B0341D5314FF00C63612 /* UIViewController+YNNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E28B0331D5314FF00C63612 /* UIViewController+YNNavigationViewController.m */; };
+		2E2D39AF1D75350C00612B72 /* GoodsShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2D39AE1D75350C00612B72 /* GoodsShareViewController.m */; };
 		2E3F26091D49DBA40042E303 /* TestNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3F26081D49DBA30042E303 /* TestNavigationController.m */; };
 		2E3F26101D49ED8B0042E303 /* back-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E3F260E1D49ED8B0042E303 /* back-@2x.png */; };
 		2E3F26111D49ED8B0042E303 /* back-@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E3F260F1D49ED8B0042E303 /* back-@3x.png */; };
@@ -33,6 +34,8 @@
 		2E28B0301D5314B600C63612 /* YNScreenShotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNScreenShotView.m; sourceTree = "<group>"; };
 		2E28B0321D5314FF00C63612 /* UIViewController+YNNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YNNavigationViewController.h"; sourceTree = "<group>"; };
 		2E28B0331D5314FF00C63612 /* UIViewController+YNNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YNNavigationViewController.m"; sourceTree = "<group>"; };
+		2E2D39AD1D75350C00612B72 /* GoodsShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsShareViewController.h; sourceTree = "<group>"; };
+		2E2D39AE1D75350C00612B72 /* GoodsShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsShareViewController.m; sourceTree = "<group>"; };
 		2E3F26071D49DBA30042E303 /* TestNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNavigationController.h; sourceTree = "<group>"; };
 		2E3F26081D49DBA30042E303 /* TestNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNavigationController.m; sourceTree = "<group>"; };
 		2E3F260E1D49ED8B0042E303 /* back-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-@2x.png"; sourceTree = "<group>"; };
@@ -178,6 +181,8 @@
 		2EA0929B1D48586A000C75C5 /* GoodShare(商品分享) */ = {
 			isa = PBXGroup;
 			children = (
+				2E2D39AD1D75350C00612B72 /* GoodsShareViewController.h */,
+				2E2D39AE1D75350C00612B72 /* GoodsShareViewController.m */,
 			);
 			path = "GoodShare(商品分享)";
 			sourceTree = "<group>";
@@ -291,6 +296,7 @@
 				2EA092951D484F66000C75C5 /* YNNavigationController.m in Sources */,
 				2E3F26181D4AF5960042E303 /* ProductAddressDetailViewController.m in Sources */,
 				2EA092AA1D485C5C000C75C5 /* ProductDetailViewController.m in Sources */,
+				2E2D39AF1D75350C00612B72 /* GoodsShareViewController.m in Sources */,
 				2EA092981D4851F4000C75C5 /* BaseViewController.m in Sources */,
 				2EA092781D484ECD000C75C5 /* AppDelegate.m in Sources */,
 				2EA092751D484ECD000C75C5 /* main.m in Sources */,

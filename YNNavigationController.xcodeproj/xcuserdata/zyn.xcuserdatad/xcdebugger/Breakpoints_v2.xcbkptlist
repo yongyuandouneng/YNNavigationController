@@ -9,22 +9,6 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "YNNavigationController/Demo/Home(&#x9996;&#x9875;)/ProductList(&#x5546;&#x54c1;&#x5217;&#x8868;)/ProductListViewController.m"
-            timestampString = "491451873.436969"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "-tapOnClick"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "YNNavigationController/Libs/YNNavigationController/YNNavigationController.m"
             timestampString = "491475197.389139"
             startingColumnNumber = "9223372036854775807"
@@ -58,13 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "YNNavigationController/Libs/YNNavigationController/YNNavigationController.m"
-            timestampString = "491985851.15445"
+            timestampString = "494221615.910606"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "421"
-            endingLineNumber = "421"
-            landmarkName = "-popToViewController:animated:"
-            landmarkType = "5">
+            startingLineNumber = "428"
+            endingLineNumber = "428">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -74,13 +56,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "YNNavigationController/Libs/YNNavigationController/YNNavigationController.m"
-            timestampString = "491985851.15445"
+            timestampString = "494221615.910606"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "423"
-            endingLineNumber = "423"
-            landmarkName = "@implementation YNNavigationController"
-            landmarkType = "3">
+            startingLineNumber = "430"
+            endingLineNumber = "430">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -90,11 +70,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "YNNavigationController/Libs/YNNavigationController/YNNavigationController.m"
-            timestampString = "491985851.15445"
+            timestampString = "494221615.910606"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "407"
-            endingLineNumber = "407"
+            startingLineNumber = "414"
+            endingLineNumber = "414"
             landmarkName = "-popToViewController:animated:"
             landmarkType = "5">
          </BreakpointContent>
@@ -282,11 +262,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "YNNavigationController/Libs/YNNavigationController/YNNavigationController.m"
-            timestampString = "491985851.15445"
+            timestampString = "494221615.910606"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "405"
-            endingLineNumber = "405"
+            startingLineNumber = "412"
+            endingLineNumber = "412"
             landmarkName = "-popToViewController:animated:"
             landmarkType = "5">
          </BreakpointContent>
@@ -352,6 +332,38 @@
             startingLineNumber = "339"
             endingLineNumber = "339"
             landmarkName = "-getAccurateYN_SHOTVIEW:class:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YNNavigationController/Demo/TestNavigationController.m"
+            timestampString = "494220895.148789"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "-pushViewController:animated:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YNNavigationController/Libs/YNNavigationController/YNNavigationController.m"
+            timestampString = "494221624.027347"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "405"
+            endingLineNumber = "405"
+            landmarkName = "-popToRootViewControllerAnimated:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

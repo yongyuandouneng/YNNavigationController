@@ -62,9 +62,9 @@
 }
 
 - (void)tapOnClick2{
-    
-    [(YNNavigationController *)self.navigationController yn_popToRootViewControllerWithCompletionBlock:nil];
-//    [self.navigationController popToRootViewControllerAnimated:YES];
+//    
+//    [(YNNavigationController *)self.navigationController yn_popToRootViewControllerWithCompletionBlock:nil];
+    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 - (void)popToPre{

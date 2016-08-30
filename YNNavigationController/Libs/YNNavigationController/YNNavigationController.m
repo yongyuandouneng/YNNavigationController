@@ -46,7 +46,7 @@
 
 - (void)panGesListener:(UIPanGestureRecognizer *)panGes{
     
-    if (self.viewControllers.count == 1) return;
+    if (self.viewControllers.count <= 1) return;
     UIViewController *lastViewController = [self.viewControllers lastObject];
     UIView *topView = self.view;
     
@@ -392,8 +392,15 @@
 
 - (NSArray<UIViewController *> *)popToRootViewControllerAnimated:(BOOL)animated{
 
-    [YN_SHOTVIEW.arrayScreenShots removeAllObjects];
-    YN_SHOTVIEW.imgView.image = nil;
+    
+    for (int i = 0; i < self.viewControllers.count - 1; i++) {
+        [YN_SHOTVIEW.arrayScreenShots removeLastObject];
+        UIImage *image = [YN_SHOTVIEW.arrayScreenShots lastObject];
+        
+        YN_SHOTVIEW.imgView.image = image;
+        
+    }
+    
     
     return [super popToRootViewControllerAnimated:animated];
     
