@@ -23,9 +23,10 @@
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
 
-    viewController.hidesBottomBarWhenPushed = YES;
     
-    if (self.childViewControllers.count) {
+    if (self.childViewControllers.count > 0) {
+        viewController.hidesBottomBarWhenPushed = YES;
+        
         UIBarButtonItem *left = [self.class barButtonItemWithImage:[UIImage imageNamed:@"back-.png"] ImageH:[UIImage imageNamed:@"back-"] target:self action:@selector(popToPre) forControlEvents:UIControlEventTouchUpInside];
         viewController.navigationItem.leftBarButtonItem = left;
     }

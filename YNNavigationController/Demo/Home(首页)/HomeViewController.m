@@ -9,10 +9,10 @@
 #import "HomeViewController.h"
 #import "ProductListViewController.h"
 
-@interface HomeViewController ()
+@interface HomeViewController () <UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UILabel *timerLabel;
 @property (nonatomic, assign) NSInteger time;
-
+@property (nonatomic, strong) NSTimer *timer;
 @end
 
 @implementation HomeViewController
@@ -25,8 +25,29 @@
     
     [self.navigationController.navigationBar setTranslucent:NO];
     
+    NSTimer *timer = [NSTimer timerWithTimeInterval:1 target:self selector:@selector(test2) userInfo:nil repeats:YES];
+    self.timer = timer;
     
     
+    BOOL isHasTableView = NO;
+    for (UIView *view in self.view.subviews) {
+        if([view isKindOfClass:[UITableView class]]) {
+            isHasTableView = YES;
+        }
+    }
+    if (!isHasTableView) {
+        UITableView *tableview = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+        tableview.delegate = self;
+        tableview.dataSource = self;
+        [self.view addSubview:tableview];
+        
+    }
+    
+}
+
+- (void)test2{
+    self.time++ ;
+    self.timerLabel.text = [NSString stringWithFormat:@"%zd",self.time];
 }
 
 #pragma mark - UITableViewDelegate  UITableViewDataSource

@@ -286,9 +286,9 @@
         
         UIImage *cropImage = [self interaceptionImage];
         
-        [YN_SHOTVIEW.arrayScreenShots addObject:cropImage];
+        [ [YNScreenShotView shareInstance].arrayScreenShots addObject:cropImage];
         
-        YN_SHOTVIEW.imgView.image = cropImage;
+         [YNScreenShotView shareInstance].imgView.image = cropImage;
         
         [self pushAnimationWithViewController:viewController isFullPush:YES];
         

@@ -27,6 +27,7 @@
 + (instancetype)shareInstance{
     static YNScreenShotView *__instance;
     static dispatch_once_t onceToken;
+    if (![[UIApplication sharedApplication] delegate].window) return nil;
     dispatch_once(&onceToken, ^{
         __instance = [[YNScreenShotView alloc]initWithFrame:[UIScreen mainScreen].bounds];
         __instance.arrayScreenShots = [NSMutableArray array];
